@@ -1,0 +1,67 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "ABS"
+   MSDTVersion = "80"
+   DefDBRef = "dwdbg1s.bodb02.dbo"
+   SccProjectName = "SAK"
+   SccLocalPath = "SAK"
+   SccAuxPath = "SAK"
+   SccProvider = "SAK"
+   Begin Folder = "ABS"
+      Begin Folder = "Customer"
+         Script = "dbo.Acc_AB_ABMatch_Remark_Sync.sql"
+         Script = "dbo.Acc_AB_AdminByPunterCodeSel.sql"
+         Script = "dbo.Acc_AB_AdminByPunterCodeUpd.sql"
+         Script = "dbo.Acc_AB_CustomerDel.sql"
+         Script = "dbo.Acc_AB_CustomerIns.sql"
+         Script = "dbo.Acc_AB_CustomerSearch.sql"
+         Script = "dbo.Acc_AB_CustomerSel.sql"
+         Script = "dbo.Acc_AB_PunterCodeAssign.sql"
+         Script = "dbo.Acc_AB_PunterCodeAssignAll.sql"
+         Script = "dbo.Acc_AB_PunterCodeIns.sql"
+         Script = "dbo.Acc_AB_PunterCodeSel.sql"
+         Script = "dbo.Acc_AB_PunterCodeUpd.sql"
+         Script = "dbo.Acc_AB_PunterGroupSel.sql"
+         Script = "dbo.Acc_AB_PunterGroupUpd.sql"
+         Script = "dbo.Acc_AB_Transaction_Sync.sql"
+      End
+      Begin Folder = "Function"
+         Script = "dbo.f_AB_HiddenUsers.sql"
+         Script = "dbo.f_AB_strSplit.sql"
+      End
+      Begin Folder = "Report"
+         Script = "dbo.Acc_AB_ResultLeagueSel.sql"
+         Script = "dbo.Acc_AB_ResultMatchSel.sql"
+         Script = "dbo.Acc_AB_RptInstant.sql"
+         Script = "dbo.Acc_AB_RptInstantLeagueSel.sql"
+         Script = "dbo.Acc_AB_RptInstantMatchCheck.sql"
+         Script = "dbo.Acc_AB_RptInstantMatchOdds.sql"
+         Script = "dbo.Acc_AB_RptInstantPunterSel.sql"
+         Script = "dbo.Acc_AB_RptInstantUpdated.sql"
+         Script = "dbo.Acc_AB_RptInstantUpdRemark.sql"
+         Script = "dbo.Acc_AB_RptSummary.sql"
+         Script = "dbo.Acc_AB_RptSummary_DetailsByAccount.sql"
+         Script = "dbo.Acc_AB_RptSummary_DetailsByLeague.sql"
+         Script = "dbo.Acc_AB_RptSummary_DetailsByLeague_Old.sql"
+      End
+      Begin Folder = "Script"
+         Script = "import punter code.sql"
+      End
+      Begin Folder = "UserControl"
+         Script = "dbo.Acc_AB_AdminSel_deleted.sql"
+         Script = "dbo.f_AB_ListAdmin_deleted.sql"
+      End
+   End
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "dwdbg1s.bodb02.dbo"
+         ConnectStr = "Data Source=10.20.20.214;Initial Catalog=bodb02;User ID=sa"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 65536
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

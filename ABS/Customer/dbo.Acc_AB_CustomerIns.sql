@@ -20,6 +20,8 @@ AS
 			
 		Parameters Explanation:
 			- @userid : id's admin user
+			
+		Jamie Testing
 	*/
 SET NOCOUNT ON
 

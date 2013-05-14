@@ -16,8 +16,7 @@ AS
 		Revisions:
 			- 20130121@Johnson: change linked server DB03 to DBPOLICY
 			- 20130308@Johnson: fix format log by xml format 
-			
-			
+				
 			
 		Parameters Explanation:
 			- @userid : id's admin user

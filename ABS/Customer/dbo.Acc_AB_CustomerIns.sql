@@ -18,8 +18,6 @@ AS
 			- 20130308@Johnson: fix format log by xml format
 		Parameters Explanation:
 			- @userid : id's admin user
-			
-		Jamie Testing
 	*/
 SET NOCOUNT ON
 

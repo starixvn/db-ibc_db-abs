@@ -10,7 +10,7 @@
 		Task: Synchronize ABMatch_Remark after add new customer/enable punter
 		DB: DB054.bobdb_ABS
 		
-		Revisions:
+		Revisions:test sophia
 		
 		Parameter's Explanation:
 	*/

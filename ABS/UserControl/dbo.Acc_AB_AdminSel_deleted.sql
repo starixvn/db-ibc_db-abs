@@ -20,6 +20,7 @@ SET NOCOUNT ON
 		INNER JOIN customer c WITH(NOLOCK) ON r.custid = c.custid
 		
 	 
+	 -- test
 
 GO
 GRANT EXECUTE ON [dbo].[Acc_AB_AdminSel] TO [bodbRMSNet] 
